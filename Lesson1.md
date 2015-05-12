@@ -54,7 +54,7 @@ _start:
 然后是更高级的C语言
 
 ```c
-\#include <stdio.h>
+#include <stdio.h>
 
 int main(int argc, char** argv){
     printf("Hello!\n");
