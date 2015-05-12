@@ -129,6 +129,7 @@ print('I Love you~', name)
 
 1. 只允许字母，数字，下划线（_）
 2. 数字不能作为变量名的第一个字符
+3. 不能其他的变量、函数（如print、input、open）、关键字（如while、if、True、False）重名
 
 然后你会看到，在`print()`函数里面，我将name放到了“I Love you~”的后面，用一个逗号（,）分隔，这样计算机会按顺序将这两个内容输出到屏幕上。
 
