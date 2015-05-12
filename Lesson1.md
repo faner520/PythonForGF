@@ -103,9 +103,9 @@ print('I Love you~')
 
 记得吧，写作文的时候，某个人说的话要用引号括起来，在这里也是，“I Love you~”也要用引号括起来，不然的话，电脑就该犯迷糊了：
 
->  File "Lesson1.py", line 3
->    print(I Love you~)
->               ^
+>  File "Lesson1.py", line 3  
+>    print(I Love you~)  
+>               ^  
 >SyntaxError: invalid syntax
 
 上面这个例子就是这样，如果不用引号将“I Love you~”括起来的话，程序就会报错，并指出出错的语句。
