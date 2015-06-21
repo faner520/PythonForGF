@@ -66,26 +66,42 @@ int main(int argc, char** argv){
 
 我们要说的，是一门名叫 Python 的语言。
 
+目前 Python 最新的版本为 3.4.3
+
 ##废话少说，我们开始。
 
 ###准备环境
 
-首先我们要先安装Python的运行环境。
+首先我们要先安装 Python 的运行环境。
 
-1. Windows  
-[TODO：Windows安装过程]
+####1. Windows
 
-2. OSX
+首先去下载 Python 的安装包，由于某些“你懂的”原因， Python 的官网并不能访问，所以可以去其他的站点下载安装包，然后运行。
+
+一路“ Next ”到底就 OK 了，不会有捆绑软件的。
+
+####2. OSX  
 [TODO]
 
-3. Linux  
-现在绝大多数的Linux发行版都自带了Python的运行环境。
+####3. Linux
+几乎所有的 Linux 发行版都会自带 Python ，如果需要，可以使用如下命令：
 
-事实上，一个称职的男朋友应该提前为你准备好一切了。
+Ubuntu/Debian:
+```bash
+$ sudo apt-get install python3
+```
+
+Fedora:
+最新版本的 Fedora 已经自带 Python 3
+
+事实上，一个**称职**的男朋友应该提前为你准备好一切了。
 
 ###启动Python环境
 
+1. Windows启动方法
 [Windows启动方法]
+
+2. Linux 和 OSX
 
 ###书写你的第一个程序
 
@@ -133,7 +149,7 @@ print('I Love you~', name)
 2. 数字不能作为变量名的第一个字符
 3. 不能其他的变量、函数（如print、input、open）、关键字（如while、if、True、False）重名
 
-然后你会看到，在`print()`函数里面，我将name放到了“I Love you~”的后面，用一个逗号（,）分隔，这样计算机会按顺序将这两个内容输出到屏幕上。
+然后你会看到，在`print()`函数里面，我将name放到了“I Love you~”的后面，用一个逗号（,）分隔，这样计算机会按顺序将这两个内容输出到屏幕上，并在这两个字符串之间添加空格。
 
 还有一个东西你应该也注意到了，就是`#`号。以这个符号开头的内容我们称为**注释**。注释是给人看的，计算机会忽略掉注释的内容。一般我们会将注释加在一条语句的后面，或者单独占用一行。
 
@@ -147,4 +163,4 @@ print('I Love you~{who}'.format(who=name))  # 使用字符串的format方法，�
 
 好了，第一课就讲到这里了，让我们完成一个作业吧
 
-* 让计算机说“xx爱xx”
+* 让计算机说“xx喜欢xx”
