@@ -79,7 +79,7 @@ print(math.sqrt(2))  # 计算开平方
 print(math.log10(100))  # 计算以10为底的对数
 print(math.e)  # 显示常数e
 print(math.pi)  # 显示圆周率
-# 更多的函数可以查看 Python 提供的文档。
+ # 更多的函数可以查看 Python 提供的文档。
 ```
 
 在这个地方需要有两点要注意：
