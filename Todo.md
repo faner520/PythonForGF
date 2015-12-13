@@ -1,1 +1,4 @@
-##计算机的位运算
+if
+for/while
+def
+try

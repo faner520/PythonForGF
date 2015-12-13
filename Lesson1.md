@@ -66,7 +66,7 @@ int main(int argc, char** argv){
 
 我们要说的，是一门名叫 Python 的语言。
 
-目前 Python 最新的版本为 3.4.3
+目前 Python 最新的版本为 3.5
 
 ##废话少说，我们开始。
 
@@ -76,12 +76,14 @@ int main(int argc, char** argv){
 
 ####1. Windows
 
-首先去下载 Python 的安装包，由于某些“你懂的”原因， Python 的官网并不能访问，所以可以去其他的站点下载安装包，然后运行。
+首先去下载 Python 的安装包，然后运行。
 
 一路“ Next ”到底就 OK 了，不会有捆绑软件的。
 
 ####2. OSX  
 [TODO]
+
+苹果的 OSX 是自带一个 Python 环境的，但并不是最新的版本。
 
 ####3. Linux
 几乎所有的 Linux 发行版都会自带 Python ，如果需要，可以使用如下命令：
@@ -92,6 +94,7 @@ $ sudo apt-get install python3
 ```
 
 Fedora:
+
 最新版本的 Fedora 已经自带 Python 3
 
 事实上，一个**称职**的男朋友应该提前为你准备好一切了。
