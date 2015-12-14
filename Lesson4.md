@@ -105,6 +105,16 @@ print(a['name'])  # 输出 Tommy
 ```
 
 在使用`for`遍历时，元组和列表会直接返回元素，而字典返回键。
+```python
+a = {'name': 'Tommy', 'age': 20, 'gender': 'Male', 'phone': '13812345678'}
+for i in a:
+    print(i)  # 输出Key
+    print(a[i])  # 输出Key对应的值
+
+b = [1, 2, 3, 4, 5, 6, 7]
+for i in b:
+    print(i)  # 依次输出1 2 3 4 5 6 7
+```
 
 还是那句话，*一时不懂没关系，在使用中加深理解*。
 
