@@ -164,7 +164,7 @@ print('I Love you~{0}'.format(name))  # 使用字符串的format()方法，将{0
 print('I Love you~{who}'.format(who=name))  # 使用字符串的format方法，将{who}替换
 ```
 
-有一点要注意，以上3种方法，不会在字符串之前添加空格。
+有一点要注意，以上3种方法，不会在字符串之间添加空格。
 
 好了，第一课就讲到这里了，让我们完成一个作业吧
 
